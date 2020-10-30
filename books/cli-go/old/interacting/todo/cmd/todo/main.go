@@ -94,7 +94,6 @@ func main() {
 			fmt.Fprintln(os.Stderr, err)
 			os.Exit(1)
 		}
-
 	default:
 		// Invalid flag provided
 		fmt.Fprintf(os.Stderr, "Invalid Operation")
